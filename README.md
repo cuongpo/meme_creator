@@ -70,13 +70,54 @@ This will start both the React frontend and the Express backend server.
 - **Backend**: Node.js, Express
 - **AI Integration**: OpenAI API (commented out in the demo version)
 
+## Deployment to Render
+
+This application can be easily deployed to Render using the provided configuration:
+
+1. Create an account on [Render](https://render.com) if you don't have one already
+
+2. Connect your GitHub repository to Render
+
+3. Click on "New Web Service" and select your repository
+
+4. Use the following settings:
+   - Environment: Node
+   - Build Command: `npm install && npm run build`
+   - Start Command: `npm start`
+
+5. Add the following environment variables:
+   - `NODE_ENV`: `production`
+   - `OPENAI_API_KEY`: Your OpenAI API key
+
+6. Click "Create Web Service"
+
+Alternatively, you can use the `render.yaml` file included in the repository for automatic deployment:
+
+1. Fork/clone this repository
+2. Add it to Render as a Blueprint
+3. Configure your environment variables
+4. Deploy
+
+## NFT Minting Integration
+
+This application includes integration with the Sui blockchain for NFT minting:
+
+- Custom Sui Move smart contract for NFT minting
+- Backend implementation to interact with the Sui blockchain
+- NFT metadata including name, description, image URL, and attributes
+- Minting on Sui devnet with proper transaction details
+- Server-paid gas fees, allowing users to mint NFTs for free
+
+To use this feature, ensure your Sui CLI is properly configured and the correct Package ID and Minter Cap ID are set.
+
 ## Future Enhancements
 
-- Integration with OpenAI or other AI services for more intelligent meme generation
+- Enhanced AI-powered meme generation
 - User accounts and saved memes
 - More meme templates and categories
 - Social sharing features
 - Mobile app version
+- Expanded NFT marketplace integration
 
 ## License
 
