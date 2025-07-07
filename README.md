@@ -2,6 +2,12 @@
 
 A decentralized application that allows users to create memes and turn popular ones into valuable coins on the Zora protocol. Built for the Zora Coinathon.
 
+## 🎮 Live Demo
+
+**Try it now:** [https://meme-creator-1.onrender.com](https://meme-creator-1.onrender.com)
+
+Experience the full meme creation and coin generation workflow on Base Sepolia testnet!
+
 ## 🌟 Features
 
 - **AI-Powered Meme Generation**: Create memes using popular templates with AI assistance
