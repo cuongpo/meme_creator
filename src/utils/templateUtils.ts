@@ -6,7 +6,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'drake',
     name: 'Drake Hotline Bling',
-    url: '/templates/drake.jpg',
+    url: 'https://i.imgflip.com/30b1gx.jpg',
     categories: ['Reactions', 'Comparisons', 'Programming', 'Marketing', 'Life'],
     textPositions: {
       top: {
@@ -24,7 +24,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'distracted-boyfriend',
     name: 'Distracted Boyfriend',
-    url: '/templates/distracted-boyfriend.jpg',
+    url: 'https://i.imgflip.com/1ur9b0.jpg',
     categories: ['Relationships', 'Comparisons', 'Programming', 'Marketing'],
     textPositions: {
       top: {
@@ -42,7 +42,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'success-kid',
     name: 'Success Kid',
-    url: '/templates/success-kid.jpg',
+    url: 'https://i.imgflip.com/1bhk.jpg',
     categories: ['Success', 'Programming', 'Work', 'Life'],
     textPositions: {
       top: {
@@ -60,7 +60,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'two-buttons',
     name: 'Two Buttons',
-    url: '/templates/two-buttons.jpg',
+    url: 'https://i.imgflip.com/1g8my4.jpg',
     categories: ['Decisions', 'Programming', 'Work', 'Life'],
     textPositions: {
       top: {
@@ -78,7 +78,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'change-my-mind',
     name: 'Change My Mind',
-    url: '/templates/change-my-mind.jpg',
+    url: 'https://i.imgflip.com/24y43o.jpg',
     categories: ['Opinions', 'Programming', 'Work', 'Social Media'],
     textPositions: {
       bottom: {
@@ -91,7 +91,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'expanding-brain',
     name: 'Expanding Brain',
-    url: '/templates/expanding-brain.jpg',
+    url: 'https://i.imgflip.com/1jwhww.jpg',
     categories: ['Intelligence', 'Programming', 'Marketing', 'Life'],
     textPositions: {
       top: {
@@ -109,7 +109,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'one-does-not-simply',
     name: 'One Does Not Simply',
-    url: '/templates/one-does-not-simply.jpg',
+    url: 'https://i.imgflip.com/1bij.jpg',
     categories: ['Warnings', 'Programming', 'Work', 'Life'],
     textPositions: {
       top: {
@@ -127,7 +127,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'surprised-pikachu',
     name: 'Surprised Pikachu',
-    url: '/templates/surprised-pikachu.jpg',
+    url: 'https://i.imgflip.com/2kbn1e.jpg',
     categories: ['Surprise', 'Reactions', 'Programming', 'Work', 'Life'],
     textPositions: {
       top: {
@@ -140,7 +140,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'this-is-fine',
     name: 'This Is Fine',
-    url: '/templates/this-is-fine.jpg',
+    url: 'https://i.imgflip.com/26am.jpg',
     categories: ['Stress', 'Programming', 'Work', 'Life'],
     textPositions: {
       top: {
@@ -153,7 +153,7 @@ const memeTemplates: MemeTemplate[] = [
   {
     id: 'waiting-skeleton',
     name: 'Waiting Skeleton',
-    url: '/templates/waiting-skeleton.jpg',
+    url: 'https://i.imgflip.com/2fm6x.jpg',
     categories: ['Waiting', 'Programming', 'Work', 'Life'],
     textPositions: {
       top: {

@@ -33,6 +33,25 @@ export interface MemeResult {
   topText?: string;
   bottomText?: string;
   prompt: string;
+  category?: string;
+  language: string;
+  createdAt?: Date;
+
+  // Popularity metrics for coin eligibility
+  popularity?: {
+    views: number;
+    likes: number;
+    shares: number;
+    downloads: number;
+    comments: number;
+    createdAt: Date;
+    lastInteraction: Date;
+  };
+
+  // Coin-related properties
+  isEligibleForCoin?: boolean;
+  coinCreated?: boolean;
+  coinAddress?: string;
 }
 
 export interface MemeApiResponse {

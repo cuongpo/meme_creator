@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { MemeGenerationRequest, MemeResult, MemeApiResponse, MemeTemplate } from '../types/meme';
 
-// API base URL - in development we connect to the local server
+// API base URL - in production, use relative "/api" so frontend and backend work on the same domain (Render deployment)
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
   ? '/api' 
   : 'http://localhost:5001/api';

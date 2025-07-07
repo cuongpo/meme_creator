@@ -1,44 +1,55 @@
-# Text-to-Meme Generator
+# 🎭 Meme Coin Creator
 
-A web-based AI-powered application that allows users to input a text prompt and receive multiple relevant meme images with text overlay. The application uses OpenAI to intelligently select meme templates and generate appropriate text.
+A decentralized application that allows users to create memes and turn popular ones into valuable coins on the Zora protocol. Built for the Zora Coinathon.
 
-## Features
+## 🌟 Features
 
-- **Text Prompt Input**: Enter a short sentence, idea, or quote (e.g., "When your code works on the first try")
-- **Category Selection**: Optionally select a meme category (Programming, Marketing, etc.)
-- **Language Selection**: Choose the language for your meme text
-- **Multiple Meme Generation**: Generate 8 unique memes at once in a 2-column layout
-- **AI-Powered Meme Generation**: Uses OpenAI to understand the context, select matching templates, and generate appropriate text
-- **High-Resolution Meme Templates**: Curated collection of popular high-resolution meme templates
-- **Image Rendering**: Dynamic generation of memes with text overlay
-- **Interactive UI**: Download, edit, copy, and star your favorite memes
+- **AI-Powered Meme Generation**: Create memes using popular templates with AI assistance
+- **Popularity Tracking**: Track views, likes, shares, downloads, and comments
+- **Coin Eligibility System**: Memes become eligible for coin creation based on engagement metrics
+- **Zora Integration**: Create ERC20 tokens from popular memes using Zora's coins SDK
+- **IPFS Storage**: Decentralized storage for meme images and metadata
+- **Wallet Integration**: Connect with MetaMask, Coinbase Wallet, and WalletConnect
+- **Viral Growth Simulation**: Demo feature to simulate viral meme growth
 
-## Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
+- Node.js 16+ and npm
+- A Web3 wallet (MetaMask, Coinbase Wallet, etc.)
+- Base network access (mainnet or testnet)
 
 ### Installation
 
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/text-to-meme-generator.git
-cd text-to-meme-generator
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/meme_creator.git
+   cd meme_creator
+   ```
 
-2. Install dependencies
-```bash
-npm install
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-3. Start the development server
-```bash
-npm start
-```
+3. **Set up environment variables**
+   ```bash
+   cp .env.example .env
+   ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+   Edit `.env` and add your configuration:
+   - `REACT_APP_WALLETCONNECT_PROJECT_ID`: Get from [WalletConnect Cloud](https://cloud.walletconnect.com/)
+   - `REACT_APP_PINATA_JWT`: Get from [Pinata](https://pinata.cloud/) for IPFS storage
+   - `REACT_APP_OPENAI_API_KEY`: Optional, for AI meme generation
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Running the Backend
 

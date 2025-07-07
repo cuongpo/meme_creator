@@ -629,7 +629,7 @@ app.get('/api/templates', (req, res) => {
   res.json({ success: true, data: memeTemplates });
 });
 
-// Serve React app in production
+// Catch-all handler to serve React's index.html for any non-API route
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../build', 'index.html'));
 });
